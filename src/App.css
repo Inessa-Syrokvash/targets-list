@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Bodoni Moda", serif;
+  background-image: url(img/bg2.png);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin: 30px 80px;
+  padding: 10px;
+  background-image: url(img/bg1.png);
+  border: 2px solid white;
 }
-
-.App-link {
-  color: #61dafb;
+.containerImg {
+  padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containerImg img {
+  border-radius: 8px;
+}
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 35px 30px 4px #002a296e;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 35px;
+  color: #fff;
+  text-shadow: 30px 25px 4px #b17679;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 20px;
+  color: #002a29;
+  padding: 0px 80px;
+  letter-spacing: .5px;
+}
+p span {
+  font-weight: bold;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255);
+  width: 300px;
+  box-shadow: 25px 10px 4px #002a296e;
+}
+.containerDelete {
+  display: flex;
+  justify-content: center;
+}
+.containerDelete button {
+  font-size: 25px;
+  font-family: "Bodoni Moda", serif;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-image: url(img/bg1.png);
+  color: #fff;
+  transition: all ease-in .5s;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+}
+.containerDelete button:hover {
+  color: #002a29;
+  background: #fff4e6;
+  border: 2px solid #fff4e6;
+}
+.containerBtn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.containerBtn button {
+  font-size: 20px;
+  font-family: "Bodoni Moda", serif;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 5px 25px;
+  background-image: url(img/bg1.png);
+  color: #fff;
+  box-shadow: -1px 15px 9px rgb(2,52,51,.6);
+  transition: all ease-in .5s;
+  letter-spacing: 2px;
+}
+.containerBtn button:hover {
+  background-image: url(img/bg2.png);
+}
+.showBtn {
+  border: none;
+  font-family: "Bodoni Moda", serif;
+  font-size: 20px;
+  background-image: url(img/bg1.png);
+  color: #249795;
+  letter-spacing: 2px;
+  transition: all ease-in .5s;
+}
+.showBtn:hover {
+  color: #fff;
 }
